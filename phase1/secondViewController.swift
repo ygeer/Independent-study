@@ -14,9 +14,13 @@ class secondViewController: UIViewController {
 
     @IBOutlet weak var passwordtxt: UITextField!
     @IBOutlet weak var usernametxt: UITextField!
+    @IBAction func reset(_ sender: Any) {
+        var items:[String]
+        items=[]
+        UserDefaults.standard.set(items, forKey: "items")
+    }
     @IBAction func create(_ sender: Any) {
         var items:[String]
-        
         
         if let tempitems=itemsObject as? [String]{
             items=tempitems

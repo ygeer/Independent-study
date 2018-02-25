@@ -114,6 +114,15 @@
                                     <segue destination="BYZ-38-t0r" kind="showDetail" id="zCx-MV-PUg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZc-Fv-qAe">
+                                <rect key="frame" x="269" y="331" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QDV-If-aRW"/>
+                                    <action selector="reset:" destination="ugg-gM-Sqc" eventType="touchUpInside" id="tpF-Sv-5G9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Zyv-wn-8OT"/>

@@ -13,23 +13,38 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordtxt: UITextField!
     @IBOutlet weak var usernametxt: UITextField!
     
+    
     @IBAction func login(_ sender: Any) {
         let usernameobject=itemsObject
-        print(usernameobject)
+       // print(usernameobject)
         
         let passwordobject=UserDefaults.standard.object(forKey:
             "item2")
         
-        let users = [usernameobject]
+        let users = [usernameobject] as? NSArray
         let passwords=[passwordobject]
         
-        for user in users {
-            if(user as? String==usernametxt.text){
+       
+        //print(users?.count)
+        
+        print("*********")
+        for user in users!{
+           // let tempstr=NSString(string:usernametxt.text!)
+            print(users![0])
+            print(users!.componentsJoined(by: "(") as Any)
+            //print(users![0])
+            
+           // print(user)
+            
+        
+           
+            if((user as? String)?.lowercased()==usernametxt.text?.lowercased()){
                 print("Found username")
-            }
+                }
         }
+    
         for password in passwords{
-            print(password)
+            //print(password)
             if(password as? String==passwordtxt.text){
                 print("found password")
             }
