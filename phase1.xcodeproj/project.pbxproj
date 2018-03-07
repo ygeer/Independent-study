@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB7AD60F20504A5F00460B5D /* thirdViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7AD60620504A5E00460B5D /* thirdViewController.framework */; };
+		DB7AD61B20504A5F00460B5D /* thirdViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7AD60620504A5E00460B5D /* thirdViewController.framework */; };
+		DB7AD61C20504A5F00460B5D /* thirdViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB7AD60620504A5E00460B5D /* thirdViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DB7AD62520504A9500460B5D /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AD62420504A9500460B5D /* thirdViewController.swift */; };
 		DB890F6620300C6F0046E4C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB890F6520300C6F0046E4C8 /* AppDelegate.swift */; };
 		DB890F6820300C6F0046E4C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB890F6720300C6F0046E4C8 /* ViewController.swift */; };
 		DB890F6B20300C6F0046E4C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB890F6920300C6F0046E4C8 /* Main.storyboard */; };
@@ -19,6 +23,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DB7AD61020504A5F00460B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB890F5A20300C6F0046E4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7AD60520504A5E00460B5D;
+			remoteInfo = thirdViewController;
+		};
+		DB7AD61220504A5F00460B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB890F5A20300C6F0046E4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB890F6120300C6F0046E4C8;
+			remoteInfo = phase1;
+		};
+		DB7AD61920504A5F00460B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB890F5A20300C6F0046E4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7AD60520504A5E00460B5D;
+			remoteInfo = thirdViewController;
+		};
 		DB890F7720300C700046E4C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB890F5A20300C6F0046E4C8 /* Project object */;
@@ -35,7 +60,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DB7AD62020504A5F00460B5D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB7AD61C20504A5F00460B5D /* thirdViewController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DB7AD5FD20504A3500460B5D /* phase1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "phase1-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB7AD60620504A5E00460B5D /* thirdViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = thirdViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7AD60E20504A5F00460B5D /* thirdViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thirdViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7AD62420504A9500460B5D /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		DB890F6220300C6F0046E4C8 /* phase1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phase1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB890F6520300C6F0046E4C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB890F6720300C6F0046E4C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,10 +97,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB7AD60220504A5E00460B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7AD60B20504A5F00460B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7AD60F20504A5F00460B5D /* thirdViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB890F5F20300C6F0046E4C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7AD61B20504A5F00460B5D /* thirdViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +153,8 @@
 				DB890F6220300C6F0046E4C8 /* phase1.app */,
 				DB890F7620300C700046E4C8 /* phase1Tests.xctest */,
 				DB890F8120300C700046E4C8 /* phase1UITests.xctest */,
+				DB7AD60620504A5E00460B5D /* thirdViewController.framework */,
+				DB7AD60E20504A5F00460B5D /* thirdViewControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,11 +165,13 @@
 				DB890F6520300C6F0046E4C8 /* AppDelegate.swift */,
 				DB890F6720300C6F0046E4C8 /* ViewController.swift */,
 				DB890F9320300CA60046E4C8 /* secondViewController.swift */,
+				DB7AD62420504A9500460B5D /* thirdViewController.swift */,
 				DB890F6920300C6F0046E4C8 /* Main.storyboard */,
 				DB890F9520300DAB0046E4C8 /* space.jpg */,
 				DB890F6C20300C6F0046E4C8 /* Assets.xcassets */,
 				DB890F6E20300C6F0046E4C8 /* LaunchScreen.storyboard */,
 				DB890F7120300C6F0046E4C8 /* Info.plist */,
+				DB7AD5FD20504A3500460B5D /* phase1-Bridging-Header.h */,
 			);
 			path = phase1;
 			sourceTree = "<group>";
@@ -133,7 +196,54 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DB7AD60320504A5E00460B5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		DB7AD60520504A5E00460B5D /* thirdViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7AD61D20504A5F00460B5D /* Build configuration list for PBXNativeTarget "thirdViewController" */;
+			buildPhases = (
+				DB7AD60120504A5E00460B5D /* Sources */,
+				DB7AD60220504A5E00460B5D /* Frameworks */,
+				DB7AD60320504A5E00460B5D /* Headers */,
+				DB7AD60420504A5E00460B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thirdViewController;
+			productName = thirdViewController;
+			productReference = DB7AD60620504A5E00460B5D /* thirdViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB7AD60D20504A5F00460B5D /* thirdViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7AD62120504A5F00460B5D /* Build configuration list for PBXNativeTarget "thirdViewControllerTests" */;
+			buildPhases = (
+				DB7AD60A20504A5F00460B5D /* Sources */,
+				DB7AD60B20504A5F00460B5D /* Frameworks */,
+				DB7AD60C20504A5F00460B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7AD61120504A5F00460B5D /* PBXTargetDependency */,
+				DB7AD61320504A5F00460B5D /* PBXTargetDependency */,
+			);
+			name = thirdViewControllerTests;
+			productName = thirdViewControllerTests;
+			productReference = DB7AD60E20504A5F00460B5D /* thirdViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DB890F6120300C6F0046E4C8 /* phase1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB890F8A20300C700046E4C8 /* Build configuration list for PBXNativeTarget "phase1" */;
@@ -141,10 +251,12 @@
 				DB890F5E20300C6F0046E4C8 /* Sources */,
 				DB890F5F20300C6F0046E4C8 /* Frameworks */,
 				DB890F6020300C6F0046E4C8 /* Resources */,
+				DB7AD62020504A5F00460B5D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DB7AD61A20504A5F00460B5D /* PBXTargetDependency */,
 			);
 			name = phase1;
 			productName = phase1;
@@ -197,8 +309,18 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Yoni Geer";
 				TargetAttributes = {
+					DB7AD60520504A5E00460B5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB7AD60D20504A5F00460B5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB890F6120300C6F0046E4C8;
+					};
 					DB890F6120300C6F0046E4C8 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					DB890F7520300C700046E4C8 = {
@@ -229,11 +351,27 @@
 				DB890F6120300C6F0046E4C8 /* phase1 */,
 				DB890F7520300C700046E4C8 /* phase1Tests */,
 				DB890F8020300C700046E4C8 /* phase1UITests */,
+				DB7AD60520504A5E00460B5D /* thirdViewController */,
+				DB7AD60D20504A5F00460B5D /* thirdViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DB7AD60420504A5E00460B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7AD60C20504A5F00460B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB890F6020300C6F0046E4C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,12 +400,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB7AD60120504A5E00460B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7AD60A20504A5F00460B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB890F5E20300C6F0046E4C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB890F6820300C6F0046E4C8 /* ViewController.swift in Sources */,
 				DB890F9420300CA70046E4C8 /* secondViewController.swift in Sources */,
+				DB7AD62520504A9500460B5D /* thirdViewController.swift in Sources */,
 				DB890F6620300C6F0046E4C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +444,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DB7AD61120504A5F00460B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7AD60520504A5E00460B5D /* thirdViewController */;
+			targetProxy = DB7AD61020504A5F00460B5D /* PBXContainerItemProxy */;
+		};
+		DB7AD61320504A5F00460B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB890F6120300C6F0046E4C8 /* phase1 */;
+			targetProxy = DB7AD61220504A5F00460B5D /* PBXContainerItemProxy */;
+		};
+		DB7AD61A20504A5F00460B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7AD60520504A5E00460B5D /* thirdViewController */;
+			targetProxy = DB7AD61920504A5F00460B5D /* PBXContainerItemProxy */;
+		};
 		DB890F7820300C700046E4C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DB890F6120300C6F0046E4C8 /* phase1 */;
@@ -323,6 +491,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DB7AD61E20504A5F00460B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = thirdViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoni-Geer.thirdViewController";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB7AD61F20504A5F00460B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = thirdViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoni-Geer.thirdViewController";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB7AD62220504A5F00460B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = thirdViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoni-Geer.thirdViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phase1.app/phase1";
+			};
+			name = Debug;
+		};
+		DB7AD62320504A5F00460B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = thirdViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoni-Geer.thirdViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phase1.app/phase1";
+			};
+			name = Release;
+		};
 		DB890F8820300C700046E4C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -434,11 +678,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = phase1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonigeer.phase1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "phase1/phase1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,11 +695,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = phase1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonigeer.phase1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "phase1/phase1-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -523,6 +772,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB7AD61D20504A5F00460B5D /* Build configuration list for PBXNativeTarget "thirdViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7AD61E20504A5F00460B5D /* Debug */,
+				DB7AD61F20504A5F00460B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7AD62120504A5F00460B5D /* Build configuration list for PBXNativeTarget "thirdViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7AD62220504A5F00460B5D /* Debug */,
+				DB7AD62320504A5F00460B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DB890F5D20300C6F0046E4C8 /* Build configuration list for PBXProject "phase1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
