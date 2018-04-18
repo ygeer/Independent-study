@@ -16,38 +16,33 @@ class ViewController: UIViewController {
     
     @IBAction func login(_ sender: Any) {
         let usernameobject=itemsObject
-       // print(usernameobject)
         
         let passwordobject=UserDefaults.standard.object(forKey:
-            "item2")
+            "passwords")
         
         let users = [usernameobject] as? NSArray
-        let passwords=[passwordobject]
+        var userlist=users![0] as? NSArray
+        
+        let passwords=[passwordobject] as? NSArray
+        var passwordlist=passwords![0] as? NSArray
         
        
-        //print(users?.count)
+        print(userlist)
+        print(passwordlist)
         
         print("*********")
-        for user in users!{
-           // let tempstr=NSString(string:usernametxt.text!)
-            print(users![0])
-            print(users!.componentsJoined(by: "(") as Any)
-            //print(users![0])
-            
-           // print(user)
-            
-        
-           
-            if((user as? String)?.lowercased()==usernametxt.text?.lowercased()){
+        var i=0;
+        for user in userlist!{
+            if user as? String == usernametxt.text{
                 print("Found username")
+                
+                if passwordtxt.text==passwordlist![i] as! String{
+                    print("password: Success")
                 }
-        }
-    
-        for password in passwords{
-            //print(password)
-            if(password as? String==passwordtxt.text){
-                print("found password")
+                else{
+                    print("password: Failure")}
             }
+            i=i+1
         }
     }
     
